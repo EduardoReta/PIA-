@@ -1,0 +1,4 @@
+https://github.com/VirusTotal/vt-py
+https://support.virustotal.com/hc/en-us/articles/360006819798-API-Scripts-and-client-libraries
+https://virustotal.github.io/vt-py/api/client.html#vt.Client.scan_file
+https://www.google.com/search?q=virus+total+python&oq=virus+total&aqs=chrome.0.69i59l2j69i57j69i59j0i10i67j69i60l3.1123j0j7&sourceid=chrome&ie=UTF-8

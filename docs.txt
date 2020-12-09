@@ -1,0 +1,50 @@
+
+DOCUMENTACION 
+
+    Argumentos y funciones.
+    
+        Script HASH.py
+
+			
+
+
+
+            Te obtiene el hash del archivo o directorio con el metodo de hasheo especificado.
+
+            -Path (requerido, tipo: string) : Argumento de la ruta de fichero/s.
+            -hsh (requerido, tipo: string) : Argumento que especifica el algoritmo deseado para la realizacion del hash.
+
+        Script CORREOS.py
+
+            Envio de correos con adjuncion de archivo opcional.
+
+            -server (requerido, string: string): Argumento que especifica el servidor de envio.
+            -usr (requerido, string: string) : Argumento que autentica al remitente.
+            -pass (requerido, tipo: string) : Contraseña que autentica al usuario remitente.
+            -subj (requerido, tipo: string) : Argumento que especifica el asunto del correo.
+            -body (opcional, tipo: string) : Argumento que especifica el cuerpo del correo.
+            -file (opcional, tipo: string) : Argumento que especifica la ruta del fichero por enviar.
+            -add (requerido, tipo: string) : Argumento que especifica al usuario destinatario. 
+
+        Script BANNER.py
+
+            Te entrega los banners del servidor especificado.
+
+            -target (requeridom tipo: string) : Argumento que especifica el ip o dominio por escanear.
+            -port (opcional, tipo: entero) : Argumento que especifica el puerto.
+
+        Script VIRUSTOTAL.py
+
+            Te entrega los escaneos y los reportes de los urls dados
+
+            -links (requerido, tipo: string) : Argumento que especifica la ruta del archivo donde se encuentran los links por escanearse.
+            -output (requerido, tipo: string) : Argumento que especifica la ruta de salida deseada de los reportes del scan.
+            -response (requerido, tipo: string) : Argumento que espefica la ruta deseada de las scan id's. 
+
+        Script cifrado.ps1
+
+            Te entrega el cifrado o descrifrado mediante el cifrado cesar.
+
+            -encryptiontype (requerido, tipo: caracter) : Argumento que especifica si se desea encriptar o desencriptar.
+            -key (requerido, tipo: entero) : Argumento que especifica la numero de llave para la encriptacion.
+            -msg (required, tipo: string) : Argumento que especifica El mensaje por encriptar o desencriptar. 

@@ -1,0 +1,20 @@
+
+Algorithm: SHA256
++-------------------+------------------------------------------------------------------+
+|        FILE       |                               HASH                               |
++-------------------+------------------------------------------------------------------+
+|     BANNER.py     | a4b8f96a155a2e539983b1a1d791c73f3141912719ed217e11583ef5ef90ca04 |
+|    cifrado.ps1    | 9443a3bffe3db79ff6f3d7318f7b52071239fc9499216ffeb52d1473489d325d |
+|     CORREOS.py    | b759b2742d12ea90831dce2310d277f3f5db1f921196af1c983a428417e48d37 |
+|      docs.txt     | 4885be725263025a3b176e0dc1464458d383386e2273d9e1b305ff95e885bbe5 |
+| Error_logging.txt | 77afbb5d1b65b141a730fb2903d78ec779740d95968c5f7043e97ba4482ef1c0 |
+|   excepciones.py  | dde93c2ca12d12826d30ad55cf4e9adc610c76dbe701ae8f412c3fa91395cf58 |
+|      HASH.py      | 2760d0f1389c86be93d679f7b44b7b66770a6f6d19d06d91e6d7de8c886ba44b |
+|   Hash_files.txt  | 07dac06fe2722026a9a18339688f0ea6c74f2894bffc33100fcb85140460f0e9 |
+|      link.txt     | d9d1d3fa529819a4858a1ac3ce8fb50600b311f788b7f6d8391852e8c0debb50 |
+|      main.py      | b10564ab7d2c520cdd0243874879fb0a782862c3c902ab535faabe57d5a505e1 |
+|   respuesta.txt   | d9dab00d66e596a62a7737c2aa39d5cbb398b612a8c6609e0dc9bfa3e17a4dec |
+|     salida.txt    | c380deed0d4e43f5e4666fd73851f4b2f80034abb55e7fdf63dfb2156c729956 |
+|   VIRUSTOTAL.py   | 3cb24743fbb6de667259ef085e60b5bd0b7e74c8e7e55b5e15b74e62a4e24aad |
+|    __pycache__    | 0cd064765b740a9d791f15266ee55d644b4b0cf40294754c21d5901ed9c781c3 |
++-------------------+------------------------------------------------------------------+
