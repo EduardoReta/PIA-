@@ -1,20 +1,20 @@
 
-Algorithm: SHA256
-+-------------------+------------------------------------------------------------------+
-|        FILE       |                               HASH                               |
-+-------------------+------------------------------------------------------------------+
-|     BANNER.py     | a4b8f96a155a2e539983b1a1d791c73f3141912719ed217e11583ef5ef90ca04 |
-|    cifrado.ps1    | 9443a3bffe3db79ff6f3d7318f7b52071239fc9499216ffeb52d1473489d325d |
-|     CORREOS.py    | b759b2742d12ea90831dce2310d277f3f5db1f921196af1c983a428417e48d37 |
-|      docs.txt     | 4885be725263025a3b176e0dc1464458d383386e2273d9e1b305ff95e885bbe5 |
-| Error_logging.txt | 77afbb5d1b65b141a730fb2903d78ec779740d95968c5f7043e97ba4482ef1c0 |
-|   excepciones.py  | dde93c2ca12d12826d30ad55cf4e9adc610c76dbe701ae8f412c3fa91395cf58 |
-|      HASH.py      | 2760d0f1389c86be93d679f7b44b7b66770a6f6d19d06d91e6d7de8c886ba44b |
-|   Hash_files.txt  | 07dac06fe2722026a9a18339688f0ea6c74f2894bffc33100fcb85140460f0e9 |
-|      link.txt     | d9d1d3fa529819a4858a1ac3ce8fb50600b311f788b7f6d8391852e8c0debb50 |
-|      main.py      | b10564ab7d2c520cdd0243874879fb0a782862c3c902ab535faabe57d5a505e1 |
-|   respuesta.txt   | d9dab00d66e596a62a7737c2aa39d5cbb398b612a8c6609e0dc9bfa3e17a4dec |
-|     salida.txt    | c380deed0d4e43f5e4666fd73851f4b2f80034abb55e7fdf63dfb2156c729956 |
-|   VIRUSTOTAL.py   | 3cb24743fbb6de667259ef085e60b5bd0b7e74c8e7e55b5e15b74e62a4e24aad |
-|    __pycache__    | 0cd064765b740a9d791f15266ee55d644b4b0cf40294754c21d5901ed9c781c3 |
-+-------------------+------------------------------------------------------------------+
+Algorithm: SHA512
++-------------------+----------------------------------------------------------------------------------------------------------------------------------+
+|        FILE       |                                                               HASH                                                               |
++-------------------+----------------------------------------------------------------------------------------------------------------------------------+
+|      HASH.py      | 6b9be6dffa100d41bbfba1b47f36a8a206ec71cd558fc1362211ee3926d3bc042164ba01609dafda55d076ae15cd67f3d2a861489d519a23170f6731ec00fb6c |
+|     salida.txt    | d71dff94b5c58b279ff035ca09c06d6736e555f4af3887b7d69a11552351eb946ca51f33e55d1964467c6f4bb6f02713fc7540c14d87283a9a6b3fad201e11fa |
+|      main.py      | f36427d6c7c2e983bea98d274f0bbab92b75f0974f3304461d5e582be348ea70a4b9f33ebfedddc5259aecf1589269f14676138e0ae49cb9f213730938db8c1d |
+|   VIRUSTOTAL.py   | 414fae45af8840c691bb77c9c67c771afeb3d38b374ee9779d8ff18ae080902b2a1a394b251e20b521e7179bec18be2ce54481fade513468abbf6c50c7473079 |
+| Server_Banner.txt | 7f406134679b329a92f97594bb3b4303d2b64d70acb07f867728c13ac30b1640db72f115cd889cd74e1d8dc717d9dffdbb719afc549cad2257109fcfb4970068 |
+|   excepciones.py  | 702afb67321ce1f7c0780d7bc370f89298605564b52bea6b09b8be9a6927c3b825aab8a59057fd8b71b5279c91072f6019d927c0d206650acd717c05bfde8d7f |
+|     CORREOS.py    | 66c01f05e1d274af0abfa97737f370e50b7b3f71f97b3615472779c4469da454029b31d6bec955a1bcc36961388d5304975088c0458da6b6efbef018c454b0f5 |
+|      link.txt     | dbc351e4756f625479ad226e67f2bd548675cbd7cfd5db505814a685f416e7ab5c59daf967516be7b20f53024f3765cf0d84cb712587cf193b68e1c5941f0137 |
+| Error_logging.txt | 5aee0954a84f4882bc777af491baabe50bb6590f17c5ea4149eac5ff06ed3da3c3f09e3881ad2c9d2e9b2da45edc20de8be6320fed789b87ba0baab550c56ef1 |
+|      docs.txt     | b72183309806216cb286bd860a5af2cb56616392c770e0930b55abd70dc7fe59eae45fffc56f631dfd532aedeac09ec43901ebb7a94986e941688c26eb97d57d |
+|     BANNER.py     | 5dd9914b94ebc566722fd51ec6e78f8b557ad87dbaec3e39f53ae643a787e6d35038ba09b8d7921e398d58f4676a7dd230ecb0ff509c68169a4287741e323747 |
+|   respuesta.txt   | 1d7cf746b5e431987e41f63acdd44a6311736bc3e79dd9610630acfda206d68736efe834ecf9661e9b66505c96d2314f36aaf3f3fb5af795643cf072516ab983 |
+|    cifrado.ps1    | e145c2cf5a60cbbba158b4ce0c643b4ba89a9ee1569ff7198c4b2b9504e5299c435c203b34e4492c6f32c55de66189df9cbdba08d2802c3602e170d318e3102b |
+|     pass.json     | d003868d0c5495b5a0ebb0293b76c8621e769fa5dbc3f0b3d162492236e3f519bab3540421ea0f03f87bae48e85e4f876b831739a907108c01655f00c828daa2 |
++-------------------+----------------------------------------------------------------------------------------------------------------------------------+

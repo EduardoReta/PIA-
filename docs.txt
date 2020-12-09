@@ -5,18 +5,46 @@ DOCUMENTACION
     
         Script HASH.py
 
-			
+			*Forma de Ejecucion
+				python main.py -path C:\Users\eduar\Desktop\example.py -hsh SHA256 ||| python main.py -path "C:\Users\01ere\Desktop\proyectoready\Proyecto Final\final" -hsh SHA256
+				
 
-
-
-            Te obtiene el hash del archivo o directorio con el metodo de hasheo especificado.
+					Los argumentos de -hsh pueden ser: 
+					BLAKE2B, BLAKE2S, MD5, SHA1, SHA224, SHA256, SHA3_224, SHA3_256, SHA3_384, SHA3_512, SHA512, SHAKE_128, SHAKE_256
+				
+			Te obtiene el hash del archivo o directorio con el metodo de hasheo especificado.
 
             -Path (requerido, tipo: string) : Argumento de la ruta de fichero/s.
             -hsh (requerido, tipo: string) : Argumento que especifica el algoritmo deseado para la realizacion del hash.
 
         Script CORREOS.py
+		
+			*Forma de Ejecucion.
+				
+				Solo Texto y archivo.
+					CASO GMAIL
+						main.py -server gmail -usr example@gmail.com -pass password -subj Subject -body Python -file file.* -add example@example.com  || main.py -server gmail -usr crawlbackstroke@gmail.com -pass elclubdelitaliano -subj prueba -body "PRUEBAS PIA" -add crawlbackstroke@gmail.com
 
-            Envio de correos con adjuncion de archivo opcional.
+					CASO OFFICE365
+						python3 main.py -server office365 -usr example@uanl.edu.mx -pass password -subj Subject -body Python -file file.* -add example@example.com
+				
+				Solo archivo o imagen.
+					Caso GMAIL
+						main.py -server gmail -usr example@gmail.com -pass password -subj Subject -file file.* -add example@example.com
+						
+
+            		CASO OFFICE365
+						main.py -server office365 -usr example@uanl.edu.mx -pass password -subj Subject -file file.* -add example@example.com
+
+				Solo texto en un archivo .txt o escrito desde argumento entre "".
+					Caso GMAIL
+						main.py -server gmail -usr example@gmail.com -pass password -subj Subject -body Python -add example@example.com
+
+            		CASO OFFICE365
+						main.py -server office365 -usr example@uanl.edu.mx -pass password -subj Subject -body "Python es interesante" -add example@example.com
+					
+				
+            Envio de correos.
 
             -server (requerido, string: string): Argumento que especifica el servidor de envio.
             -usr (requerido, string: string) : Argumento que autentica al remitente.
@@ -27,14 +55,21 @@ DOCUMENTACION
             -add (requerido, tipo: string) : Argumento que especifica al usuario destinatario. 
 
         Script BANNER.py
-
+			
+			*Forma de ejecucion.
+				python main.py -target www.uanl.mx -Port 443 || python main.py -target www.uanl.mx
+				
+				El puerto puede ser especificado, en caso de no serlo, se le asigna un valor por default.
+					
             Te entrega los banners del servidor especificado.
 
             -target (requeridom tipo: string) : Argumento que especifica el ip o dominio por escanear.
             -port (opcional, tipo: entero) : Argumento que especifica el puerto.
 
         Script VIRUSTOTAL.py
-
+			
+			*Forma de ejecucion.
+				main.py -links link.txt -output <texto de salida de reportes> -response <texto de salida de respuesta> -api_key <su llave api> || 	main.py -links link.txt -output salida.txt -response respuesta.txt -api_key 4411a93b7336a1a64a641ac012961f39c361c6ff16e7234381b52903954161a5
             Te entrega los escaneos y los reportes de los urls dados
 
             -links (requerido, tipo: string) : Argumento que especifica la ruta del archivo donde se encuentran los links por escanearse.
@@ -43,6 +78,12 @@ DOCUMENTACION
 
         Script cifrado.ps1
 
+			*Forma de ejecucion.
+				Encriptacion:
+					python main.py -encryptiontype e -key <llave con la que desea encriptar> -msg <texto que desee encriptar> 
+				Desencriptacion:
+					python main.py -encryptiontype d -key <llave de encriptacion del texto> -msg <texto encriptado> 
+			
             Te entrega el cifrado o descrifrado mediante el cifrado cesar.
 
             -encryptiontype (requerido, tipo: caracter) : Argumento que especifica si se desea encriptar o desencriptar.
